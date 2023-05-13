@@ -2,6 +2,8 @@
 sidebar_position: 0
 ---
 
-# はじめに
+# ホーム
 
-工事中
+ここでは、Psych Engine Luaに関する物をまとめています！
+
+※Psych Engine 0.6.3の情報をもとに作成しています。

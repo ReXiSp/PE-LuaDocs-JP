@@ -29,8 +29,14 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'jp',
-    locales: ['jp'],
+    defaultLocale: 'ja',
+    locales: ['ja'],
+    localeConfigs: {
+      ja: {
+        label: '日本語',
+        direction: 'ltr',
+      },
+    },
   },
 
   presets: [
@@ -63,13 +69,7 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ReXiSp/PE-LuaDocs-JP',
             label: 'GitHub',
             position: 'right',
           },
@@ -114,7 +114,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Tombuntu, Psych Engine by ShadowMario, Funkin by FunkinCrew`,
+        // copyright: `Copyright © ${new Date().getFullYear()} Tombuntu, Psych Engine by ShadowMario, Funkin by FunkinCrew`,
+        copyright: `Site by PE Lua Docs JP Team, Psych Engine by ShadowMario, Funkin by FunkinCrew`,
       },
       prism: {
         theme: lightCodeTheme,
