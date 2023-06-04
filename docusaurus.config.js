@@ -62,7 +62,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '日本人向け Psych Engine Lua API ドキュメント',
+        title: '日本人向け Psych Engine Lua ドキュメント',
         logo: {
           alt: 'PE Lua Document',
           src: 'img/logo.webp',
@@ -102,6 +102,10 @@ const config = {
                 label: 'Discord: 日本人向けFNFMOD制作鯖',
                 href: 'https://discord.gg/7N4ucGNy5W',
               },
+              {
+                label: 'Discord: 黒髪零 Funkin!',
+                href: 'https://discord.gg/M4RhmS57U5',
+              }
             ],
           },
           {

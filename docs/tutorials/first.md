@@ -8,7 +8,7 @@ Luaを使うために、まずLuaファイルを作りましょう！
 ## Modの位置
 `mods` - グローバルmodフォルダー。すべての曲に適用されます。
 
-`mods/yourmods` - modoackフォルダー。初期設定ではそのmodの曲のみに適用されます。
+`mods/yourmods` - modpackフォルダー。初期設定ではそのmodの曲のみに適用されます。
 
 ## Mod内での位置
 
@@ -42,8 +42,8 @@ function onCreatePost()
 end
 ```
 
-できたら、Psych Engineからどれか曲をプレイしましょう！
+できたら、Psych Engineでどれか曲をプレイしましょう！
 
-![プレビュー](debugprint.png "プレビュー")
+![プレビュー](img/debugprint.png "プレビュー")
 
 おめでとう！これでLuaの実行は成功だよ！
